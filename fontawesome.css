@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url("fa-solid-900.woff2") format("woff2"),
+       url("fa-solid-900.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Brands";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fa-brands-400.woff2") format("woff2"),
+       url("fa-brands-400.woff") format("woff");
+  font-display: swap;
+}
+
+/* Keep original FA styles */
+.fa,
+.fas,
+.fa-solid { font-family: "Font Awesome 7 Free"; }
+.fab,
+.fa-brands { font-family: "Font Awesome 7 Brands"; }
