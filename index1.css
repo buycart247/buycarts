@@ -199,12 +199,13 @@ margin-top: 50px;
 
 }
 .account{
-    text-decoration: none;
-font-size: large;  
+text-decoration: none;
+font-size: large;
+text-align: center;
 list-style-type:none; 
 font-size: 30px;
 margin-left: 20px;
-margin-top: 50px;
+margin-top: 50px;   
 }
 
 .form{
